@@ -1,0 +1,5 @@
+---
+
+defines-react-components: true
+
+---
