@@ -20,17 +20,16 @@ const getAvatarUrl = (name: string) => `https://github.com/${name}.png`
 
 export const creators: Creator[] = [
   {
-    name: '絢香猫',
+    name: 'XYX',
     avatar: '',
-    username: 'nekomeowww',
-    title: 'Nólëbase 原始创作者',
-    desc: '开发者，专注于基础设施维护，数据分析，后端、DevOps 开发',
+    username: 'XYXMichael',
+    title: '博客贡献者',
+    desc: '一个热衷于前端开发的考研人，热爱开源，热爱分享。',
     links: [
-      { type: 'github', icon: 'github', link: 'https://github.com/nekomeowww' },
-      { type: 'twitter', icon: 'twitter', link: 'https://twitter.com/ayakaneko' },
+      { type: 'github', icon: 'github', link: 'https://github.com/XYXMichael' },
     ],
-    nameAliases: ['nekomeowww', '绚香猫', '絢香猫', 'Neko Ayaka', 'Ayaka Neko'],
-    emailAliases: ['neko@ayaka.moe'],
+    nameAliases: ['XYX', 'XYXMichael'],
+    emailAliases: ['1907214633@qq.com'],
   },
   {
     name: '絢香音',
