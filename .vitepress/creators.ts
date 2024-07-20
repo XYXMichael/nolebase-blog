@@ -20,28 +20,30 @@ const getAvatarUrl = (name: string) => `https://github.com/${name}.png`
 
 export const creators: Creator[] = [
   {
-    name: 'XYX',
+    name: '絢香猫',
     avatar: '',
-    username: 'XYXMichael',
-    title: '博客贡献者',
-    desc: '一个热衷前端开发的程序员，热爱开源，热爱分享，同时暂时也是个苦命的考研人。',
+    username: 'nekomeowww',
+    title: 'Nólëbase 原始创作者',
+    desc: '开发者，专注于基础设施维护，数据分析，后端、DevOps 开发',
     links: [
-      { type: 'github', icon: 'github', link: 'https://github.com/XYXMichael' },
+      { type: 'github', icon: 'github', link: 'https://github.com/nekomeowww' },
+      { type: 'twitter', icon: 'twitter', link: 'https://twitter.com/ayakaneko' },
     ],
-    nameAliases: ['XYXMichael', 'XYX', 'XYX', 'Michael XYX', 'Michael XYX'],
-    emailAliases: ['1907214633@qq.com'],
+    nameAliases: ['nekomeowww', '绚香猫', '絢香猫', 'Neko Ayaka', 'Ayaka Neko'],
+    emailAliases: ['neko@ayaka.moe'],
   },
   {
-    name: 'BSY',
+    name: '絢香音',
     avatar: '',
-    username: 'Leon-Bin',
+    username: 'LittleSound',
     title: 'Nólëbase 原始创作者',
     desc: '开源开发者，专注于前端，以及前端相关工具库和工具链开发',
     links: [
-      { type: 'github', icon: 'github', link: 'https://github.com/Leon-Bin' },
+      { type: 'github', icon: 'github', link: 'https://github.com/LittleSound' },
+      { type: 'twitter', icon: 'twitter', link: 'https://twitter.com/OikawaRizumu' },
     ],
-    nameAliases: ['Leon-Bin', 'BSY', 'BSY', 'Bin Leon', 'Bin Leon'],
-    emailAliases: ['bin2946919972@gmail.com'],
+    nameAliases: ['LittleSound', '绚香音', '絢香音', 'Rizumu Oikawa', 'Rizumu Ayaka', 'Ayaka Rizumu', 'Rizumu'],
+    emailAliases: ['rizumu@ayaka.moe', 'rizumu@oqo.moe'],
   },
 ].map<Creator>((c) => {
   c.avatar = c.avatar || getAvatarUrl(c.username)
