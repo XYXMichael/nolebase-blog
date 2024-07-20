@@ -33,7 +33,6 @@ features:
   - title: 旅游Blog
     details: 记录旅游的点滴感受，分享旅游的心得体会。
     icon: ✈️
-    link：/笔记/北京旅游（摆烂式旅游）
 ---
 
 <HomePage />
