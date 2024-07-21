@@ -1,6 +1,6 @@
-# {{date:YYYY-MM-DD}} 的日记
+# {{date:WW_YYYY-MM-DD}} 的日记
 
-<< [[{{date-1d:WW_YYYY-MM-DD}}|上一天的日记]] | [[{{date+1d:WW_YYYY-MM-DD}}|后一天的日记]] >>
+%% << [[{{date-1d:WW_YYYY-MM-DD}}|上一天的日记]] | [[{{date+1d:WW_YYYY-MM-DD}}|后一天的日记]] >> %%
 
   
 
