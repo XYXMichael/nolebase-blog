@@ -4,7 +4,7 @@ sidebar: false
 title: XYXMichiael
 titleTemplate: 记录回忆，知识和畅想的地方
 hero:
-  name: g~Nj$3J2^
+  name: XYXMichiael
   text: 记录回忆，知识和畅想的地方
   tagline: 一个考研人在不想复习的情况下，通过寻找适合自己的开源博客进行搭建，记录自己的学习历程。【寻找了两个有缘人一起创建属于自己的Blog，希望大家多多支持】
   image:
